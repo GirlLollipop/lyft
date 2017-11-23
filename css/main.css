@@ -4,16 +4,49 @@
   font-family: Montserrat;
 }
 
+button {
+  background-color: #FF00BF;
+  font-size: 18px;
+  color: white;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+button:hover {
+  color: #c2339e;
+  text-decoration: underline;
+  background-color: white;
+  border: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
 hr {
   width: 700px;
   margin-left: 350px;
 }
 
+input {
+  border-style: none;
+  margin-top: 30px;
+}
+
+/* Aplico opacity al nav para que quede transparente  */
 nav {
   position: fixed;
   opacity: 1.0;
   width: 100%;
   height: 80px;
+  margin-top: 100px;
+}
+
+.final {
+height: 70px;
 }
 
 .footer {
@@ -28,7 +61,11 @@ nav {
   height: 20px;
   color: white;
   text-align: center;
-  margin-left: 65px;
+  margin-left: 40px;
+}
+
+.hero{
+  margin-top: -80px;
 }
 
 .icons {
@@ -36,91 +73,140 @@ nav {
   padding: 10px;
 }
 
-.list{
-  color: white;
-
-}
-
 .logo{
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 80px;
   margin-top: 20px;
 }
 
 .menu {
-  margin-left: 900px;
+  margin-left: 700px;
   margin-top: -30px;
 }
 
 .menu li{
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     display: inline;
     list-style: none;
-    padding: 10px;
+    padding: 20px;
 }
 
-.menu li:hover{
-  background: purple;
+.text-form {
+  margin-top: 10px;
+  font-size: 9px;
+  line-height: 15px;
+}
+
+.text-form a {
+  color: #FF00BF;
+}
+
+.text-form a:hover {
+  color: #c2339e;
+  text-decoration: underline;
+}
+
+.menu li:hover {
+  color: #FF00BF;
+}
+
+.videos {
+  height: 1198px;
 }
 
 .video1 {
-  position: absolute;
-  right: 0px;
-  top: 1300px;
+  position: relative;
+  left: 480px;
+  top: 0px;
 }
 
 .video2 {
   position: relative;
-  left: 0px;
-  bottom: -142px;
+  right: 0;
+  top: 400px;
 }
 
 .video3 {
   position: relative;
-  left: 600px;
-  top: -20px;
+  left: 472px;
+  top: 233px;
+}
+
+#amplify {
+  position: absolute;
+}
+/*No pude alineralo con el otro botón*/
+#button-2 {
+  margin-left: 250px;
+  margin-top: -150px;
 }
 
 #footer {
   background-color: #333447;
 }
 
+#form {
+  background: white;
+  border: 2px solid white;
+  color: #728099;
+  width: 420px;
+  height: 350px;
+  padding: 50px;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
 
+#form h1, #form p {
+  color: #563d7c;
+  letter-spacing: 3px;
+}
+
+#form h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
 
 #gradient {
-  background: linear-gradient(#27153c,#73268d);
+  background: linear-gradient(#76278F, #2B1E66);
   height: 1300px;
 }
 
-#list-right {
-  margin-left: 200px;
-  line-height: 50px;
+/* No pudo quitar el estilo de las listas
+pra que no aparezacn los puntos a un lado*/
+#list-footer .list {
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  padding: 50px;
+  margin-left: 100px;
+  margin-top: -100px;
 }
 
-#list-center1 {
-  margin-left: 400px;
-  line-height: 50px;
-  margin-top: -250px;
+#list-footer ul li:hover {
+  color: #c2339e;
+}
+#list-right ul li img {
+  padding: 5px;
 }
 
-#list-center2 {
-  margin-left: 700px;
-  line-height: 50px;
-  margin-top: -250px;
+#list-right, #list-center1, #list-center2, #list-right {
+  line-height: 60px;
 }
 
-#list-right {
-  margin-left: 1000px;
-  line-height: 50px;
-  margin-top: -250px;
+#log {
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 10px;
 }
-
 
 #phone {
-  margin-left: 830px;
+  margin-left: 55%;
   margin-top: 20px;
 }
+
 #text-phone {
   color: white;
   margin-top: -500px;
@@ -131,5 +217,25 @@ nav {
 #text-final {
   text-align: center;
   color: white;
-  padding-top: 5px;
+  padding-top: 20px;
+}
+
+#text-final p {
+  margin-top: 10px;
+}
+
+/*No pude acomodarlos con position*/
+#text-june {
+  margin-left: 900px;
+}
+
+#text-thing {
+  margin-left: 100px;
+  margin-top: -100px;
+}
+
+#text-watch {
+  margin-left: 10px;
+  margin-top: -300px;
+
 }
