@@ -1,12 +1,135 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Montserrat;
+}
+
+hr {
+  width: 700px;
+  margin-left: 350px;
 }
 
 nav {
-  background: #27153c;
+  position: fixed;
+  opacity: 1.0;
+  width: 100%;
+  height: 80px;
 }
+
+.footer {
+  display: inline-block;
+}
+
+.icons i{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  margin-left: 65px;
+}
+
+.icons {
+  margin-left: 480px;
+  padding: 10px;
+}
+
+.list{
+  color: white;
+
+}
+
+.logo{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.menu {
+  margin-left: 900px;
+  margin-top: -30px;
+}
+
+.menu li{
+    font-size: 15px;
+    color: white;
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li:hover{
+  background: purple;
+}
+
+.video1 {
+  position: absolute;
+  right: 0px;
+  top: 1300px;
+}
+
+.video2 {
+  position: relative;
+  left: 0px;
+  bottom: -142px;
+}
+
+.video3 {
+  position: relative;
+  left: 600px;
+  top: -20px;
+}
+
+#footer {
+  background-color: #333447;
+}
+
+
 
 #gradient {
   background: linear-gradient(#27153c,#73268d);
+  height: 1300px;
+}
+
+#list-right {
+  margin-left: 200px;
+  line-height: 50px;
+}
+
+#list-center1 {
+  margin-left: 400px;
+  line-height: 50px;
+  margin-top: -250px;
+}
+
+#list-center2 {
+  margin-left: 700px;
+  line-height: 50px;
+  margin-top: -250px;
+}
+
+#list-right {
+  margin-left: 1000px;
+  line-height: 50px;
+  margin-top: -250px;
+}
+
+
+#phone {
+  margin-left: 830px;
+  margin-top: 20px;
+}
+#text-phone {
+  color: white;
+  margin-top: -500px;
+  margin-left: 100px;
+  padding: 50px;
+}
+
+#text-final {
+  text-align: center;
+  color: white;
+  padding-top: 5px;
 }
